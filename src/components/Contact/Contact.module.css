@@ -1,0 +1,26 @@
+.listItem {
+    border: 1px solid #a5a5a5;
+    border-radius: 12px;
+    padding: 12px;
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.listItem div p {
+    margin: 0;
+    position: relative;
+    padding-left: 25px;
+    text-align: left;
+}
+
+.listItem div p:not(:last-child) {
+    margin: 0 0 5px 0;
+}
+
+.nameIcon, .phoneIcon {
+    position: absolute;
+    left: 0;
+    top: 4px;
+}
